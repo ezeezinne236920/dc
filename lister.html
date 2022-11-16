@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a new beginning</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="bg success tect white p-4 mb-3">
+        <div id="headerTitle">
+          <h1>Item Lister</h1>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="search items" id="filter" />
+        </div>
+      </header>
+      <section>
+        <h2 class="add">Add Items</h2>
+        <form id="addform">
+          <label for="">
+            <input type="text" id="inputid" />
+            <select>
+              <option value="male">male</option>
+              <option value="female">female</option>
+              <option value="others">others</option>
+            </select>
+            <button class="submit">submit</button>
+          </label>
+        </form>
+        <!-- <input type="text" /><button class="submit">submit</button> -->
+        <!-- <div class="Items"></div> -->
+
+        <div class="items">
+          <ul id="items" class="List-group">
+            <li class="list-group-items">
+              item 1 <button class="btn-sm delete float-right">X</button>
+            </li>
+            <br />
+            <li class="list-group-items">
+              item 2 <button class="btn-sm delete float-right">X</button>
+            </li>
+            <br />
+            <li class="list-group-items">
+              item 3 <button class="btn-sm delete float-right">X</button>
+            </li>
+            <br />
+            <li class="list-group-items">
+              item 4 <button class="btn-sm delete float-right">X</button>
+            </li>
+            <br />
+            <li class="list-group-items">
+              item 5<button class="btn-sm delete float-right">X</button>
+            </li>
+            <br />
+          </ul>
+
+          <div id="output"></div>
+          <br />
+        </div>
+
+        <button class="btn btn-dark" id="button">click here</button>
+      </section>
+      <div id="box" style="width: 400px; height: 200px; background: #f4f4f4">
+        I'M looking for a book; what book? facebook!
+      </div>
+      <div class="section-3">
+        <h1 id="anaconda">
+          let it be known that the anaconda is a deadly creature and knows no
+          aquintance
+        </h1>
+      </div>
+    </div>
+    <script src="dom.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
